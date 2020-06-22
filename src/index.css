@@ -1,0 +1,68 @@
+.box-small {
+  width: fit-content;
+  height: 50px;
+  border: 2px solid blue;
+  background-color: chartreuse;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.btn-class {
+  background-color: darkcyan;
+}
+
+.scorearea-class {
+  width: 100%;
+  display: block;
+  text-align: left;
+  float: left;
+  padding: 2em;
+}
+
+.quizarea-class {
+  width: 25%;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  padding: 0.2em;
+}
+
+.totalcorrect_class {
+  display: inline-block;
+  padding: 1em;
+  background: #eee;
+  margin: 0 1em 0 0;
+}
+
+.totalincorrect_class {
+  display: inline-block;
+  padding: 1em;
+  background: #eee;
+  margin: 0 0 0 1em;
+}
+
+.question-class {
+  color: red;
+  width: max-content;
+}
+
+.answer-class {
+  width: 100%;
+  height: 34px;
+  color: blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#comp {
+  width: 100%;
+}
+
+#searchbox {
+  margin: 17px 0 0 20px;
+}
